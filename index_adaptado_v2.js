@@ -5,11 +5,11 @@ const config = {
   TOKEN: process.env.TOKEN || process.env.DISCORD_TOKEN,
   prefix: process.env.PREFIX || "!",
   nomebot: process.env.NOMEBOT || "System Store",
-  canalvoz: process.env.CANAL_VOZ || "",
+  canalvoz: process.env.CANAL_VOZ || "1499787251742281809",
   emojic: process.env.EMOJI_C || "✅",
-  cargovip: process.env.CARGO_VIP || "",
+  cargovip: process.env.CARGO_VIP || "VIP",
   idcargo: process.env.ID_CARGO || process.env.CARGO_VIP || "",
-  color: process.env.COLOR || "#0073ff"
+  color: process.env.COLOR || "#9c0000"
 };
 
 if (!config.TOKEN) {
