@@ -1,0 +1,19 @@
+{
+  "name": "system-store-corrigido",
+  "version": "5.0.0",
+  "description": "Bot de loja Discord com pagamento semi automatico por Pix.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "dependencies": {
+    "discord.js": "^13.17.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "ms": "^2.1.3"
+  }
+}
