@@ -29,7 +29,7 @@ const client = new Client({
 });
 
 const DB_FILE = path.join(__dirname, 'database.json');
-const PREFIX = process.env.PREFIX || '!';
+const PREFIX = process.env.PREFIX || '-';
 
 function baseDb() {
   return {
